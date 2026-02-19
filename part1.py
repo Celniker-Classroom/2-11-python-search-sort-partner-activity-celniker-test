@@ -4,7 +4,7 @@ from random import randint #This line imports the randint function from the rand
 ranNums = [] #name your list and make sure it is empty!
 def generate_list():
      # Generates a list of 5 or 10 random integers between 1 and 50 inclusive.
-     for num in range(5): #for loop appends 5 numbers to your list, but make sure you name your variable
+     for num in range(10): #for loop appends 5 numbers to your list, but make sure you name your variable
          ranNums.append(randint(1,51)) #this adds a random number between 1-50 to the list
 
 generate_list()
